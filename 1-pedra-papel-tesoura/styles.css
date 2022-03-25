@@ -1,0 +1,70 @@
+body{
+    background-color: #2B2B37;
+}
+.game{
+    border-radius: 3%;
+    margin: auto;
+    background-color: #3333FF;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: auto;
+    top: 50%;
+    margin-top: auto;
+    transform: translate(-50%, -50%)
+}
+.game-container{
+    margin-left: 15%;
+    margin-top: 12%;
+    align-items: center;
+}
+h1 span{
+    color: whitesmoke;
+}
+.choices{
+    margin: 20px;
+}
+.button-style {
+    justify-content: space-between;
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+  
+.button-style:hover,
+.button-style:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+}
+  
+.button-style:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+  
+.button-style:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+}
